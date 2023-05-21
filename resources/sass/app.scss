@@ -1,0 +1,68 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+.justify-row-center {
+  justify-content:center;
+}
+
+.dashboard-post-head {
+  font-size:20px;
+  color:#fff;
+  z-index:2
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.postdetail-head-color {
+  color: $kindawhite;
+}
+
+.card-top-line {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: $kindagrey;
+}
+
+.card-bottom-line {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: $kindagrey;
+}
+
+.text-color-black {
+  color: #000;
+}
+
+.no-bullet-ul {
+  list-style-type: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
